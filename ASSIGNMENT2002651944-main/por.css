@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.navbar ul li {
+  font-family: Georgia;
+  font-size: 1.1rem;
+}
+.navbar ul li a {
+  color: antiquewhite;
+  padding: 8px 25px;
+  box-shadow: 0 0 10px white;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("img.jpg") no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.headings {
+  font-family: Georgia;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#pic {
+  display: flex;
+}
+#pic img {
+  width: 500px;
+  height: 350px;
+}
+
+#intro {
+  overflow: scroll;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+}
+#intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+#intro h3 {
+  margin-bottom: 20px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#pic2 {
+  display: flex;
+}
+#pic2 img {
+  width: 475px;
+  height: 400px;
+}
+
+#intro1 {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.certifications {
+  background: var(--bg-color);
+  color: black;
+}
+
+.center {
+  text-align: center;
+  color: #eef0f1;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.center h2 {
+  margin-bottom: 15px;
+  color: black;
+  font-size: 3rem;
+}
+.center p {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 13px;
+}
+.center p span {
+  color: black;
+  font-size: 150%;
+}
+
+.certification-content {
+  display: flex;
+  justify-content: center;
+}
+.certification-content img {
+  width: 300px;
+  height: 200px;
+}
+
+.row {
+  padding: 55px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.35s;
+  margin: 10px;
+}
+.row i {
+  font-size: 50px;
+  margin: 25px 0px;
+}
+.row figcaption {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.row p {
+  line-height: 30px;
+  font-size: 13px;
+}
+.row:hover {
+  transform: translateY(-8px);
+}/*# sourceMappingURL=por.css.map */
